@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Edenilson Construction LLC - Professional masonry, concrete, brick, stone, and retaining wall services in Tennessee. Licensed, bonded, and fully insured.">
+    <meta name="theme-color" content="#1E293B">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://edenilsonconstruction.com/">
+    <meta property="og:title" content="Edenilson Construction LLC - Professional Masonry Services">
+    <meta property="og:description" content="Quality masonry you can trust. Specializing in concrete, block, brick, stone, retaining walls, repairs, and pavers throughout Tennessee.">
+    <meta property="og:image" content="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/649335010_10163826987750469_2306323194918101577_n.jpg?stp=dst-jpg_p100x100_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=G160moodEz0Q7kNvwHF7rOw&_nc_oc=AdoFT47hzzyCGOXjQPwlgpvYVfx8keypoqQCHXubOvhzrRII0KMdyBpXc774uy9UnkIhKjVSP1ADMqOJbt32hTza&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wUpkyHi-tQuSY78bsNeAZQ&_nc_ss=7a30f&oh=00_AfyoDEndmNmUvDPAsKIxCp-On0DQxk9NzF_xYtMQ8nhl2g&oe=69C37334">
+
+    <title>Edenilson Construction LLC - Professional Masonry & Concrete Services</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%231E293B'/><text x='50' y='60' font-size='24' font-weight='bold' fill='%23EA580C' text-anchor='middle' font-family='Arial'>EC</text></svg>">
+
+    <style>
+        /* ========== CSS RESET & VARIABLES ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Primary Colors */
+            --color-primary: #1E293B;
+            --color-secondary: #475569;
+            --color-accent: #EA580C;
+            --color-light: #F1F5F9;
+            --color-bg: #F9FAFB;
+            --color-border: #E2E8F0;
+            --color-text: #1E293B;
+
+            /* Typography */
+            --font-heading: 'Barlow Condensed', sans-serif;
+            --font-body: 'IBM Plex Sans', sans-serif;
+
+            /* Spacing */
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            --spacing-2xl: 4rem;
+
+            /* Animation */
+            --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+            --duration: 500ms;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* ========== SCROLLBAR & SELECTION ========== */
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--color-bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--color-accent);
+            border-radius: 6px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--color-primary);
+        }
+
+        ::selection {
+            background-color: var(--color-accent);
+            color: white;
+        }
+
+        /* ========== TYPOGRAPHY ========== */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.1;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--color-primary);
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        h3 {
+            font-size: clamp(1.25rem, 3vw, 1.75rem);
+            margin-bottom: var(--spacing-md);
+        }
+
+        p {
+            font-size: clamp(0.95rem, 1.2vw, 1.125rem);
+            margin-bottom: var(--spacing-md);
+            color: var(--color-secondary);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            transition: color 200ms var(--ease-out);
+        }
+
+        a:hover {
+            color: var(--color-primary);
+        }
+
+        /* ========== LAYOUT ========== */
+        .container {
+            width: min(90%, 1200px);
+            margin: 0 auto;
+        }
+
+        section {
+            padding: clamp(3rem, 8vh, 6rem) 0;
+        }
+
+        /* ========== NAVIGATION ========== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(30, 41, 59, 0.1);
+            transition: all 300ms var(--ease-out);
+        }
+
+        nav.scrolled {
+            box-shadow: 0 4px 12px rgba(30, 41, 59, 0.15);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: min(90%, 1200px);
+            margin: 0 auto;
+            padding: var(--spacing-sm) 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            height: 50px;
+        }
+
+        .logo img {
+            max-height: 50px;
+            width: auto;
+            display: block;
+        }
+
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: var(--spacing-xl);
+            align-items: center;
+        }
+
+        .nav-menu a {
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--color-primary);
+            transition: color 300ms var(--ease-out);
+            padding: var(--spacing-xs) var(--spacing-sm);
+        }
+
+        .nav-menu a:hover {
+            color: var(--color-accent);
+        }
+
+        .cta-button {
+            background: var(--color-accent);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 300ms var(--ease-out);
+            border: 2px solid var(--color-accent);
+        }
+
+        .cta-button:hover {
+            background: transparent;
+            color: var(--color-accent);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: var(--spacing-xs);
+            min-width: 44px;
+            min-height: 44px;
+            justify-content: center;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 3px;
+            background: var(--color-primary);
+            border-radius: 2px;
+            transition: all 300ms var(--ease-out);
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(8px, 8px);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+
+        nav.scrolled .hamburger span {
+            background: var(--color-primary);
+        }
+
+        /* ========== HERO SECTION ========== */
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 70px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: linear-gradient(rgba(30, 41, 59, 0.55), rgba(30, 41, 59, 0.55)), url('STOCK-IMAGES/construction/1.jpg');
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(135deg, transparent 0%, var(--color-accent) 50%, transparent 100%);
+            clip-path: polygon(0 50%, 100% 0, 100% 100%, 0 50%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            padding: 0 var(--spacing-lg);
+            animation: fadeInUp 800ms var(--ease-out) 200ms both;
+        }
+
+        .hero h1 {
+            color: white;
+            margin-bottom: var(--spacing-lg);
+            font-weight: 700;
+            letter-spacing: 0.02em;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.5rem);
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: var(--spacing-2xl);
+            font-weight: 300;
+        }
+
+        .hero-cta {
+            display: inline-block;
+            background: var(--color-accent);
+            color: white;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            border: none;
+            cursor: pointer;
+            transition: all 400ms var(--ease-out);
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(234, 88, 12, 0.3);
+        }
+
+        .hero-cta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(234, 88, 12, 0.4);
+            background: var(--color-primary);
+            color: white;
+        }
+
+        /* ========== ABOUT/TRUST SECTION ========== */
+        .about {
+            background: white;
+            position: relative;
+        }
+
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .about-description {
+            font-size: clamp(1rem, 1.3vw, 1.25rem);
+            color: var(--color-secondary);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .trust-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-2xl);
+        }
+
+        .trust-badge {
+            padding: var(--spacing-lg);
+            background: var(--color-light);
+            border-left: 4px solid var(--color-accent);
+            text-align: center;
+            transition: all 400ms var(--ease-out);
+            animation: slideUp 600ms var(--ease-out) both;
+        }
+
+        .trust-badge:nth-child(1) { animation-delay: 100ms; }
+        .trust-badge:nth-child(2) { animation-delay: 200ms; }
+        .trust-badge:nth-child(3) { animation-delay: 300ms; }
+        .trust-badge:nth-child(4) { animation-delay: 400ms; }
+
+        .trust-badge:hover {
+            background: var(--color-accent);
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .trust-badge h3 {
+            color: var(--color-primary);
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .trust-badge:hover h3 {
+            color: white;
+        }
+
+        .trust-badge p {
+            font-size: 0.95rem;
+            color: var(--color-secondary);
+            margin: 0;
+        }
+
+        .trust-badge:hover p {
+            color: white;
+        }
+
+        /* ========== OUR WORK SECTION ========== */
+        .work {
+            background: var(--color-light);
+            position: relative;
+        }
+
+        .work h2 {
+            text-align: center;
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .work-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+            gap: var(--spacing-lg);
+            margin: 0;
+        }
+
+        .work-card {
+            background: white;
+            border-radius: 4px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(30, 41, 59, 0.08);
+            transition: all 500ms var(--ease-out);
+            animation: slideUp 600ms var(--ease-out) both;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .work-card:nth-child(1) { animation-delay: 100ms; }
+        .work-card:nth-child(2) { animation-delay: 150ms; }
+        .work-card:nth-child(3) { animation-delay: 200ms; }
+        .work-card:nth-child(4) { animation-delay: 250ms; }
+        .work-card:nth-child(5) { animation-delay: 300ms; }
+        .work-card:nth-child(6) { animation-delay: 350ms; }
+
+        .work-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(30, 41, 59, 0.15);
+        }
+
+        .work-card-image {
+            position: relative;
+            height: 220px;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+        }
+
+        .work-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 500ms var(--ease-out);
+        }
+
+        .work-card:hover .work-card-image img {
+            transform: scale(1.08);
+        }
+
+        .work-card-content {
+            padding: var(--spacing-lg);
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .work-card h3 {
+            font-size: 1.3rem;
+            color: var(--color-primary);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .work-card p {
+            font-size: 0.95rem;
+            color: var(--color-secondary);
+            line-height: 1.6;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        /* ========== CONTACT SECTION ========== */
+        .contact {
+            background: white;
+        }
+
+        .contact h2 {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .contact-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .contact-top {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: var(--spacing-xl);
+            margin-bottom: var(--spacing-2xl);
+            text-align: center;
+        }
+
+        .contact-method {
+            padding: var(--spacing-lg);
+            border-top: 3px solid var(--color-accent);
+        }
+
+        .contact-method h3 {
+            font-size: 1rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--color-primary);
+        }
+
+        .phone-button {
+            display: inline-block;
+            background: var(--color-accent);
+            color: white;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 300ms var(--ease-out);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .phone-button:hover {
+            background: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .email-button {
+            display: inline-block;
+            background: var(--color-secondary);
+            color: white;
+            padding: 1rem 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 300ms var(--ease-out);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            word-break: break-all;
+        }
+
+        .email-button:hover {
+            background: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .contact-form {
+            background: var(--color-light);
+            padding: var(--spacing-2xl);
+            border-radius: 4px;
+            margin-top: var(--spacing-xl);
+        }
+
+        .form-group {
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: var(--spacing-lg);
+        }
+
+        .form-row .form-group {
+            margin-bottom: 0;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            color: var(--color-primary);
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-family: var(--font-body);
+            font-size: 1rem;
+            border: 2px solid var(--color-border);
+            border-radius: 4px;
+            background: white;
+            color: var(--color-text);
+            transition: all 300ms var(--ease-out);
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--color-accent);
+            box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.1);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .submit-button {
+            background: var(--color-accent);
+            color: white;
+            padding: 1rem 2.5rem;
+            font-size: 1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 300ms var(--ease-out);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            width: 100%;
+            min-height: 44px;
+        }
+
+        .submit-button:hover {
+            background: var(--color-primary);
+            transform: translateY(-2px);
+        }
+
+        .submit-button:active {
+            transform: translateY(0);
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: var(--color-primary);
+            color: white;
+            padding: var(--spacing-2xl) 0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .footer-section h3 {
+            color: var(--color-accent);
+            margin-bottom: var(--spacing-md);
+            font-size: 1rem;
+        }
+
+        .footer-section p, .footer-section a {
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .footer-section a {
+            color: var(--color-accent);
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: var(--spacing-lg);
+            text-align: center;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        /* ========== MOBILE CTA (Sticky) ========== */
+        .mobile-cta {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: var(--color-accent);
+            padding: var(--spacing-md);
+            z-index: 999;
+            box-shadow: 0 -4px 12px rgba(234, 88, 12, 0.2);
+        }
+
+        .mobile-cta a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--spacing-sm);
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            min-height: 44px;
+        }
+
+        /* ========== ANIMATIONS ========== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes drawLine {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        /* ========== RESPONSIVE DESIGN ========== */
+        @media (max-width: 768px) {
+            :root {
+                --spacing-lg: 1.5rem;
+                --spacing-xl: 2rem;
+                --spacing-2xl: 3rem;
+            }
+
+            /* Navigation */
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                flex-direction: column;
+                background: white;
+                gap: 0;
+                padding: var(--spacing-lg) 0;
+                box-shadow: 0 8px 16px rgba(30, 41, 59, 0.1);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-menu li {
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid var(--color-border);
+            }
+
+            .nav-menu li:last-child {
+                border-bottom: none;
+            }
+
+            .nav-menu a {
+                display: block;
+                padding: var(--spacing-md);
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .cta-button {
+                padding: 0.6rem 1rem;
+                font-size: 0.85rem;
+            }
+
+            /* Hero */
+            .hero {
+                margin-top: 70px;
+                height: 80vh;
+                min-height: 500px;
+            }
+
+            .hero h1 {
+                font-size: clamp(1.8rem, 6vw, 2.5rem);
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            /* Mobile CTA */
+            .mobile-cta {
+                display: block;
+            }
+
+            body {
+                padding-bottom: 60px;
+            }
+
+            /* Trust Grid */
+            .trust-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trust-badge {
+                text-align: left;
+            }
+
+            /* Work Grid */
+            .work-grid {
+                grid-template-columns: 1fr;
+            }
+
+            /* Contact */
+            .contact-top {
+                grid-template-columns: 1fr;
+            }
+
+            .phone-button, .email-button {
+                width: 100%;
+            }
+
+            .contact-form {
+                padding: var(--spacing-lg);
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .submit-button {
+                width: 100%;
+            }
+
+            /* Footer */
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 375px) {
+            :root {
+                --spacing-lg: 1rem;
+                --spacing-xl: 1.5rem;
+                --spacing-2xl: 2rem;
+            }
+
+            h1 {
+                font-size: clamp(1.5rem, 5vw, 2.2rem);
+            }
+
+            h2 {
+                font-size: clamp(1.3rem, 4vw, 2rem);
+            }
+
+            .hero h1 {
+                font-size: clamp(1.5rem, 5vw, 2.2rem);
+            }
+
+            .hero-subtitle {
+                font-size: 0.95rem;
+            }
+
+            .hero-cta {
+                padding: 0.75rem 1.5rem;
+                font-size: 0.9rem;
+            }
+
+            .nav-container {
+                padding: var(--spacing-sm) 0;
+            }
+
+            .logo {
+                height: 40px;
+            }
+
+            .logo img {
+                max-height: 40px;
+            }
+
+            input, select, textarea {
+                font-size: 16px;
+            }
+
+            .work-card-image {
+                height: 180px;
+            }
+        }
+
+        /* ========== PRINT STYLES ========== */
+        @media print {
+            nav, .mobile-cta {
+                display: none;
+            }
+
+            section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/649335010_10163826987750469_2306323194918101577_n.jpg?stp=dst-jpg_p100x100_tt6&_nc_cat=100&ccb=1-7&_nc_sid=1d2534&_nc_ohc=G160moodEz0Q7kNvwHF7rOw&_nc_oc=AdoFT47hzzyCGOXjQPwlgpvYVfx8keypoqQCHXubOvhzrRII0KMdyBpXc774uy9UnkIhKjVSP1ADMqOJbt32hTza&_nc_ad=z-m&_nc_cid=0&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=wUpkyHi-tQuSY78bsNeAZQ&_nc_ss=7a30f&oh=00_AfyoDEndmNmUvDPAsKIxCp-On0DQxk9NzF_xYtMQ8nhl2g&oe=69C37334" alt="Edenilson Construction LLC">
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Our Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:(865)386-2960" class="cta-button">Call Now</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Building What Matters</h1>
+            <p class="hero-subtitle">Professional Masonry & Concrete Services Throughout Tennessee</p>
+            <button class="hero-cta" id="heroCtaBtn">Request A Bid</button>
+        </div>
+    </section>
+
+    <!-- About / Trust Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>Quality Masonry You Can Trust</h2>
+                <p class="about-description">
+                    Edenilson Construction LLC specializes in concrete, block, brick, stone, retaining walls, repairs, pavers, and pressure washing — serving Tennessee with reliable, professional craftsmanship and military-grade precision.
+                </p>
+                <div class="trust-grid">
+                    <div class="trust-badge">
+                        <h3>Licensed & Bonded</h3>
+                        <p>Fully licensed and bonded for your peace of mind</p>
+                    </div>
+                    <div class="trust-badge">
+                        <h3>Fully Insured</h3>
+                        <p>Complete insurance coverage for all projects</p>
+                    </div>
+                    <div class="trust-badge">
+                        <h3>Free Estimates</h3>
+                        <p>No obligation, detailed project quotes</p>
+                    </div>
+                    <div class="trust-badge">
+                        <h3>Bilingual Service</h3>
+                        <p>English & Spanish for your convenience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2>Our Work</h2>
+            <div class="work-grid">
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/1.jpg" alt="Concrete Work" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Concrete Work</h3>
+                        <p>Foundations, slabs, driveways, and sidewalks built to last with precision-poured concrete.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/2.jpg" alt="Block & Brick Masonry" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Block & Brick Masonry</h3>
+                        <p>Expert block and brick laying for walls, facades, and structural applications.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/3.jpg" alt="Stone Work" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Stone Work</h3>
+                        <p>Natural and manufactured stone installation for walls, veneers, and decorative features.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/4.jpg" alt="Retaining Walls" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Retaining Walls</h3>
+                        <p>Engineered retaining walls that prevent erosion and add beauty to any property.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/5.jpg" alt="Paver Installation" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Paver Installation</h3>
+                        <p>Custom paver driveways, patios, and walkways designed to impress.</p>
+                    </div>
+                </article>
+
+                <article class="work-card">
+                    <div class="work-card-image">
+                        <img src="STOCK-IMAGES/construction/6.jpg" alt="Repairs & Restoration" loading="lazy">
+                    </div>
+                    <div class="work-card-content">
+                        <h3>Repairs & Restoration</h3>
+                        <p>Expert repair of cracked, damaged, or aging masonry and concrete structures.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-top">
+                    <div class="contact-method">
+                        <h3>Call Us</h3>
+                        <a href="tel:(865)386-2960" class="phone-button">(865) 386-2960</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Email Us</h3>
+                        <a href="mailto:luisromero1213@icloud.com" class="email-button">Send Email</a>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Service Area</h3>
+                        <p style="margin: 0; font-weight: 600;">Throughout Tennessee</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type *</label>
+                            <select id="projectType" name="projectType" required>
+                                <option value="">-- Select a service --</option>
+                                <option value="Concrete Work">Concrete Work</option>
+                                <option value="Block & Brick">Block & Brick Masonry</option>
+                                <option value="Stone Work">Stone Work</option>
+                                <option value="Retaining Walls">Retaining Walls</option>
+                                <option value="Paver Installation">Paver Installation</option>
+                                <option value="Repairs">Repairs & Restoration</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget">
+                                <option value="">-- Select budget --</option>
+                                <option value="Under $5,000">Under $5,000</option>
+                                <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+                                <option value="$10,000 - $25,000">$10,000 - $25,000</option>
+                                <option value="$25,000+">$25,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">-- Select timeline --</option>
+                                <option value="ASAP">ASAP (Within 2 weeks)</option>
+                                <option value="Next Month">Next Month</option>
+                                <option value="In 2-3 Months">In 2-3 Months</option>
+                                <option value="Planning Stage">Still Planning</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your project..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Request A Free Estimate</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Edenilson Construction</h3>
+                    <p>Professional masonry and concrete services serving Tennessee with pride and precision.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="tel:(865)386-2960">(865) 386-2960</a></p>
+                    <p><a href="mailto:luisromero1213@icloud.com">luisromero1213@icloud.com</a></p>
+                    <p>Service Area: Tennessee</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p>Concrete Work</p>
+                    <p>Brick & Block Masonry</p>
+                    <p>Stone Work</p>
+                    <p>Retaining Walls</p>
+                    <p>Pavers & Pressure Washing</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Edenilson Construction LLC. All rights reserved. | Licensed & Insured</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA (Sticky) -->
+    <div class="mobile-cta">
+        <a href="tel:(865)386-2960">📞 Call Now</a>
+    </div>
+
+    <script>
+        // ========== HAMBURGER MENU ==========
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('navMenu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // ========== NAVBAR SCROLL EFFECT ==========
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ========== HERO CTA SCROLL TO CONTACT ==========
+        const heroCtaBtn = document.getElementById('heroCtaBtn');
+        heroCtaBtn.addEventListener('click', () => {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        // ========== FORM SUBMISSION ==========
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            // Basic validation
+            const name = document.getElementById('name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const projectType = document.getElementById('projectType').value;
+
+            if (!name || !phone || !email || !projectType) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+
+            // Collect form data
+            const formData = new FormData(contactForm);
+            const data = Object.fromEntries(formData);
+
+            // Create mailto link with form data
+            const mailtoLink = `mailto:luisromero1213@icloud.com?subject=Estimate Request from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+                `Name: ${data.name}\n` +
+                `Phone: ${data.phone}\n` +
+                `Email: ${data.email}\n` +
+                `Project Type: ${data.projectType}\n` +
+                `Budget Range: ${data.budget || 'Not specified'}\n` +
+                `Timeline: ${data.timeline || 'Not specified'}\n\n` +
+                `Project Details:\n${data.message || 'No details provided'}`
+            )}`;
+
+            // Open email client
+            window.location.href = mailtoLink;
+
+            // Show confirmation
+            alert('Thank you! Your estimate request has been prepared. Your email client will open to send it to us.');
+            contactForm.reset();
+        });
+
+        // ========== SMOOTH SCROLL PADDING ==========
+        document.documentElement.style.scrollPaddingTop = '80px';
+
+        // ========== LAZY IMAGE LOADING FALLBACK ==========
+        const images = document.querySelectorAll('img[loading="lazy"]');
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.src;
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            images.forEach(img => imageObserver.observe(img));
+        }
+    </script>
+</body>
+</html>
